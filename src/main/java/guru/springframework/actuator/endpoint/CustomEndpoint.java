@@ -20,10 +20,11 @@ public class CustomEndpoint extends AbstractEndpoint<List<String>> {
 
     @Override
     public List<String> invoke() {
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>(4);
         list.add("Umphrey's");
         list.add("McGee");
         list.add("Zulu Rocks");
+        list.add("Louis Yeaah");
         return list;
     }
 }
