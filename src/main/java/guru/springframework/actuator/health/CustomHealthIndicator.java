@@ -10,7 +10,7 @@ import java.util.Random;
  * Example for a customized health indicator
  * Created by Uwe Sauerbrei on 21.01.2018
  */
-@Component
+//@Component
 public class CustomHealthIndicator implements HealthIndicator {
 
 
